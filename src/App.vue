@@ -1,16 +1,17 @@
 <template>
-  <Counter />
+  <Home page="Vuejs" />
 </template>
 
 <script>
 // Single-File Component
 
 // Options API
-import Counter from "./components/Counter.vue";
+import Home from "./pages/Home";
+
 export default {
   name: "App",
   components: {
-    Counter: Counter,
+    Home: Home,
   },
 };
 </script>
